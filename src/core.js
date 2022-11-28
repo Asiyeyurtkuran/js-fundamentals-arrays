@@ -17,14 +17,20 @@ const lastTeacher = teachers.pop()
 console.log(lastTeacher)
 
 // 4. Remove the first teacher from the array and save them in firstTeacher below
-const firstTeacher = undefined
+const firstTeacher = teachers.shift()
+console.log(firstTeacher)
 
 // 5. Add a teacher named Vanessa to the end of the teachers array
+teachers.push('Vanessa')
+console.log(teachers)
 
 // 6. Remove Ed from the teachers array
+teachers.shift()
+console.log(teachers)
 
 // 7. Add a teacher named Sarah to the beginning of the teachers array
-
+teachers.unshift('Sarah')
+console.log(teachers)
 // Don't change the code below this line
 module.exports = {
   teachers,
